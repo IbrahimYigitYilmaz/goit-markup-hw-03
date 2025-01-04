@@ -1,5 +1,15 @@
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px
 }
 body {
   background-color: white;
@@ -19,13 +29,14 @@ p {
 }
 
 /* START OF HEADER */
-header {
-  border: solid red 1px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 156px;
-  padding-right: 156px;
+.header {
   align-items: center;
+  height: 72px;
+  width: 1440px;
+  border-bottom: 1px solid #e7e9fc;
+}
+header .header_container {
+  display: flex;
 }
 
 header .logo {
