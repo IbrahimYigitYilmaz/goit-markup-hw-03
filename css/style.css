@@ -247,6 +247,9 @@ h1 {
 /* END OF SECTION 3 */
 
 /* START OF SECTION 4 */
+.portfolio_section {
+  padding: 120px 0;
+}
 .portfolio {
   font-size: 36px;
   line-height: 1.11;
@@ -254,6 +257,22 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio_list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio_frame {
+  width calc((100% - 3 * 24px) / 4);
+}
+.portfolio_item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio_title {
   font-weight: 500;
