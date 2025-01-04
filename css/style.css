@@ -127,7 +127,8 @@ h1 {
   letter-spacing: 0.02em;
 }
 .biggest_text {
-  max-width: 496px
+  max-width: 496px;
+  margin: 0 auto;
 }
 .button {
   font-family:"Roboto", sans-serif;
@@ -163,7 +164,6 @@ h1 {
 }
 .features_list_items {
   width: calc((100% - 72px) / 4);
-
 }
 .features {
   color: #2e2f42;
