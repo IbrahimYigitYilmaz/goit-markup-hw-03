@@ -114,9 +114,7 @@ header address .address li .address_item:focus {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.section_1_container {
 
-}
 h1 {
   color: white;
   font-family: "Roboto", serif;
@@ -156,6 +154,17 @@ h1 {
 /* END OF SECTION 1 */
 
 /* START OF SECTION 2 */
+.features_box {
+  padding: 120px 0;
+}
+.features_list {
+  display: flex;
+  gap: 24px;
+}
+.features_list_items {
+  width: calc((100% - 72px) / 4);
+
+}
 .features {
   color: #2e2f42;
   font-family: "Roboto", serif;
@@ -164,6 +173,7 @@ h1 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features_text {
   color: #434455;
