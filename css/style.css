@@ -9,7 +9,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px
+  padding: 0 15px;
 }
 body {
   background-color: white;
@@ -292,6 +292,7 @@ h1 {
 /* START OF FOOTER */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer p {
   color: #f4f4fd;
@@ -310,8 +311,13 @@ footer .logo {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 footer .logo span {
   color: #F4F4FD;
+}
+.footer_note {
+  max-width: 264px;
 }
 /* END OF FOOTER */
