@@ -39,6 +39,11 @@ header .header_container {
   display: flex;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
 header .logo {
   text-decoration: none;
   color: #4d5ae5;
@@ -50,13 +55,12 @@ header .logo {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  border: solid blue 1px;
+  margin-right: 76px
 }
 header .logo span {
   color: #2e2f42;
 }
-header nav ul {
-  border: solid green 1px;
+.menu_1 {
   display: flex;
   gap: 40px;
 }
@@ -69,6 +73,7 @@ header nav ul li .menu_item {
   color: #2e2f42;
   line-height: 24px;
   letter-spacing: 0.02em;
+  padding: 24px 0
 }
 header nav ul li .menu_item:hover {
   color: #404bbf;
@@ -76,19 +81,16 @@ header nav ul li .menu_item:hover {
 header nav li .menu_item:focus {
   color: #404bbf
 }
-header .address {
+header address .address {
   font-style: normal;
-  border: solid orchid 1px;
-  display: flex;
-}
-header .address ul {
   display: flex;
   gap: 40px;
 }
-header .address ul li {
+
+header address .address li {
   list-style: none;
 }
-header .address ul li .address_item{
+header address .address li .address_item{
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
@@ -98,10 +100,10 @@ header .address ul li .address_item{
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-header .address ul li .address_item:hover {
+header address .address li .address_item:hover {
   color: #404bbf;
 }
-header .address ul li .address_item:focus {
+header address .address li .address_item:focus {
   color: #404bbf;
 }
 
