@@ -84,6 +84,10 @@ header nav ul li .menu_item:hover {
 header nav li .menu_item:focus {
   color: #404bbf
 }
+header address {
+  position: absolute;
+  right: 156px;
+}
 header address .address {
   font-style: normal;
   display: flex;
@@ -269,7 +273,7 @@ h1 {
   row-gap: 48px;
 }
 .portfolio_frame {
-  width calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .portfolio_item {
   padding: 32px 16px;
@@ -302,6 +306,10 @@ h1 {
 }
 .studio_end {
   color: #F4F4FD
+}
+.footer_container {
+  position: absolute;
+  left: 156px;
 }
 footer .logo {
   text-decoration: none;
