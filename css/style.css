@@ -38,7 +38,7 @@ p {
   width: 1440px;
   border-bottom: 1px solid #e7e9fc;
 }
-header .header_container {
+.header_container {
   display: flex;
 }
 
@@ -47,7 +47,7 @@ header .header_container {
   align-items: center;
 }
 
-header .logo {
+.logo {
   text-decoration: none;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -60,14 +60,14 @@ header .logo {
   text-transform: uppercase;
   margin-right: 76px
 }
-header .logo span {
+.logo span {
   color: #2e2f42;
 }
 .menu_1 {
   display: flex;
   gap: 40px;
 }
-header nav ul li .menu_item {
+.menu_item {
   text-decoration: none;
   font-family: "Roboto", serif;
   font-weight: 500;
@@ -78,26 +78,26 @@ header nav ul li .menu_item {
   letter-spacing: 0.02em;
   padding: 24px 0
 }
-header nav ul li .menu_item:hover {
+.menu_item:hover {
   color: #404bbf;
 }
-header nav li .menu_item:focus {
+.menu_item:focus {
   color: #404bbf
 }
-header address {
+address {
   position: absolute;
   right: 156px;
 }
-header address .address {
+.address {
   font-style: normal;
   display: flex;
   gap: 40px;
 }
 
-header address .address li {
+.address li {
   list-style: none;
 }
-header address .address li .address_item{
+.address_item{
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
@@ -107,10 +107,10 @@ header address .address li .address_item{
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-header address .address li .address_item:hover {
+.address_item:hover {
   color: #404bbf;
 }
-header address .address li .address_item:focus {
+.address_item:focus {
   color: #404bbf;
 }
 
