@@ -63,7 +63,7 @@ header .container {
 .logo span {
   color: #2e2f42;
 }
-.menu_1 {
+.menu-1 {
   display: flex;
   gap: 40px;
 }
